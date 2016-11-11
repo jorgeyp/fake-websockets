@@ -22,5 +22,5 @@ var server = ws.createServer((conn) => {
       conn.sendText(data);
     }, time);
   }
-}).listen(80);
+}).listen(3000);
 
